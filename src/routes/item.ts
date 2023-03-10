@@ -7,7 +7,7 @@ const router=Router();
 /*
 locahost:2020/items
 */
-router.get('/',[otroMiddleware,logMiddleware],getItems);
+router.get('/',[otroMiddleware,logMiddleware    ],getItems);
 router.get('/:id',logMiddleware, getItem);
 router.post('/',postItem);
 router.delete('/:id',deleteItem);
