@@ -6,9 +6,8 @@
   "scripts": {
     "test": "test",
     "dev": "nodemon  ./src/app.ts",
-    "start": "nodemon  ./src/app.ts",
     "build":"tsc",
-    "dev2":"node ./src/app.js"
+    "start":"node ./dist/app.js"
   },
   "author": "sebastian",
   "license": "ISC",
